@@ -1,0 +1,377 @@
+{
+	"id": "a7723b52-8cb9-496b-8a86-33ca464a5448",
+	"name": "Postman. Task_2",
+	"timestamp": "2022-05-28T13:02:08.338Z",
+	"collection_id": "17399053-56c96dd4-e83e-4f9b-9c40-d7439b46709f",
+	"folder_id": 0,
+	"environment_id": "17399053-cb36de02-8b53-488c-8e09-91fe501bfc89",
+	"totalPass": 39,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3d461f20-7c7c-40eb-8ba9-f5b3f69b5b7e",
+			"name": "First Tests",
+			"url": "http://162.55.220.72:5005/first",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body has right string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body has right string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				101
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body has right string": true
+				}
+			]
+		},
+		{
+			"id": "df23ae98-2939-4cb0-bc16-96128431e38a",
+			"name": "User_info_3 Tests",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 108,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response's Name eql request's Name": true,
+				"Response's Age eql request's Age": true,
+				"Response's Salary eql request's Salary": true,
+				"Response's Name eql request's Name with parsed request data": true,
+				"Response's Age eql request's Age with parsed request data": true,
+				"Response's Salary eql request's Salary with parsed request data": true,
+				"Check u_salary_1_5_year eql salary * 4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Name eql request's Name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Age eql request's Age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Salary eql request's Salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Name eql request's Name with parsed request data": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Age eql request's Age with parsed request data": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Salary eql request's Salary with parsed request data": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check u_salary_1_5_year eql salary * 4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				108
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response's Name eql request's Name": true,
+					"Response's Age eql request's Age": true,
+					"Response's Salary eql request's Salary": true,
+					"Response's Name eql request's Name with parsed request data": true,
+					"Response's Age eql request's Age with parsed request data": true,
+					"Response's Salary eql request's Salary with parsed request data": true,
+					"Check u_salary_1_5_year eql salary * 4": true
+				}
+			]
+		},
+		{
+			"id": "e279ab7a-e5ef-43b6-ab53-1bec3aeb891b",
+			"name": "Object_info_3 Tests",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Kate&age=26&salary=2900",
+			"time": 97,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response's Name eql request's Name": true,
+				"Response's Age eql request's Age": true,
+				"Response's Salary eql request's Salary": true,
+				"Dog property has Name property": true,
+				"Dog property has Age property": true,
+				"dog.name property has Lucky value": true,
+				"dog.age property has 4 value": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Name eql request's Name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Age eql request's Age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Salary eql request's Salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dog property has Name property": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dog property has Age property": {
+					"pass": 1,
+					"fail": 0
+				},
+				"dog.name property has Lucky value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"dog.age property has 4 value": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				97
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response's Name eql request's Name": true,
+					"Response's Age eql request's Age": true,
+					"Response's Salary eql request's Salary": true,
+					"Dog property has Name property": true,
+					"Dog property has Age property": true,
+					"dog.name property has Lucky value": true,
+					"dog.age property has 4 value": true
+				}
+			]
+		},
+		{
+			"id": "6239fd3e-f202-4fb4-8bd8-1c392b0e14c5",
+			"name": "Object_info_4 Tests",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Kate&age=26&salary=2900",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response's Name eql request's Name": true,
+				"Response's Age eql request's Age": true,
+				"Response's Salary [0] eql request's Salary": true,
+				"Response's Salary [1] eql request's Salary * 2": true,
+				"Response's Salary [2] eql request's Salary * 3": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Name eql request's Name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Age eql request's Age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Salary [0] eql request's Salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Salary [1] eql request's Salary * 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response's Salary [2] eql request's Salary * 3": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				88
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response's Name eql request's Name": true,
+					"Response's Age eql request's Age": true,
+					"Response's Salary [0] eql request's Salary": true,
+					"Response's Salary [1] eql request's Salary * 2": true,
+					"Response's Salary [2] eql request's Salary * 3": true
+				}
+			]
+		},
+		{
+			"id": "f32fd40c-fd5a-462c-a25a-475a1a37c443",
+			"name": "User_info_2 Tests",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response has start_qa_salary property": true,
+				"Response has qa_salary_after_6_months property": true,
+				"Response has qa_salary_after_12_months property": true,
+				"Response has qa_salary_after_1.5_year property": true,
+				"Response has qa_salary_after_3.5_years property": true,
+				"Response has person property": true,
+				"Property start_qa_salary eql request's property salary": true,
+				"Property qa_salary_after_6_months eql request's property salary * 2": true,
+				"Property qa_salary_after_12_months eql request's property salary * 2.7": true,
+				"Property qa_salary_after_1.5_year eql request's property salary * 3.3": true,
+				"Property qa_salary_after_3.5_year eql request's property salary * 3.8": true,
+				"Property person.u_name [1] eql request's property salary": true,
+				"Property u_age eql request's property u_age": true,
+				"Property u_salary_5_years eql request's property salary * 4.2": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has start_qa_salary property": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has qa_salary_after_6_months property": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has qa_salary_after_12_months property": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has qa_salary_after_1.5_year property": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has qa_salary_after_3.5_years property": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has person property": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Property start_qa_salary eql request's property salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Property qa_salary_after_6_months eql request's property salary * 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Property qa_salary_after_12_months eql request's property salary * 2.7": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Property qa_salary_after_1.5_year eql request's property salary * 3.3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Property qa_salary_after_3.5_year eql request's property salary * 3.8": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Property person.u_name [1] eql request's property salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Property u_age eql request's property u_age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Property u_salary_5_years eql request's property salary * 4.2": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				101
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response has start_qa_salary property": true,
+					"Response has qa_salary_after_6_months property": true,
+					"Response has qa_salary_after_12_months property": true,
+					"Response has qa_salary_after_1.5_year property": true,
+					"Response has qa_salary_after_3.5_years property": true,
+					"Response has person property": true,
+					"Property start_qa_salary eql request's property salary": true,
+					"Property qa_salary_after_6_months eql request's property salary * 2": true,
+					"Property qa_salary_after_12_months eql request's property salary * 2.7": true,
+					"Property qa_salary_after_1.5_year eql request's property salary * 3.3": true,
+					"Property qa_salary_after_3.5_year eql request's property salary * 3.8": true,
+					"Property person.u_name [1] eql request's property salary": true,
+					"Property u_age eql request's property u_age": true,
+					"Property u_salary_5_years eql request's property salary * 4.2": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 495,
+	"collection": {
+		"requests": [
+			{
+				"id": "3d461f20-7c7c-40eb-8ba9-f5b3f69b5b7e",
+				"method": "GET"
+			},
+			{
+				"id": "df23ae98-2939-4cb0-bc16-96128431e38a",
+				"method": "POST"
+			},
+			{
+				"id": "e279ab7a-e5ef-43b6-ab53-1bec3aeb891b",
+				"method": "GET"
+			},
+			{
+				"id": "6239fd3e-f202-4fb4-8bd8-1c392b0e14c5",
+				"method": "GET"
+			},
+			{
+				"id": "f32fd40c-fd5a-462c-a25a-475a1a37c443",
+				"method": "POST"
+			}
+		]
+	}
+}
